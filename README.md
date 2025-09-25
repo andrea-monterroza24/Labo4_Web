@@ -2,10 +2,10 @@
 
 Preguntas: 
 1. Analicemos ¿Qué ocurre en cada caso presentado anteriormente con los operadores y porqué JS me permite esto?
-   En el codigo, en la primera parte, hay operadores aritmeticos y de exponenciacion, donde los parentesis tienen prioridad y por eso se evaluan primero. LUego la multiplicacion tiene mas prioridad y por eso se hace antes que la suma. Y por ultimo el operador de exponenciacion se evalua de derecha a izquierda y por eso se calcula " 3 ** 2 = 9 " y luego " 2 ** 9 ".
-   En la segunda parte hay operadores de incremento y decremento:
-   ++inicio: primero aumenta y luego devuelve el valor.
-   inicio++: primero devuelve el valor y luego aumenta.
+   -En el codigo, en la primera parte, hay operadores aritmeticos y de exponenciacion, donde los parentesis tienen prioridad y por eso se evaluan primero. LUego la multiplicacion tiene mas prioridad y por eso se hace antes que la suma. Y por ultimo el operador de exponenciacion se evalua de derecha a izquierda y por eso se calcula " 3 ** 2 = 9 " y luego " 2 ** 9 ".
+   -En la segunda parte hay operadores de incremento y decremento:
+   -- ++inicio: primero aumenta y luego devuelve el valor.
+   -- inicio++: primero devuelve el valor y luego aumenta.
    --inicio: primero resta y luego devuelve.
    inicio-- (post-decremento): primero devuelve y luego resta.
    Al final, inicio termina en 5 porque pasó por varias sumas y restas.
