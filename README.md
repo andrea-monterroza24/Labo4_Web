@@ -12,6 +12,7 @@ En la segunda parte hay operadores de incremento y decremento:
    - inicio: primero resta y luego devuelve.
    - inicio-- (post-decremento): primero devuelve y luego resta.
    Al final, inicio termina en 5 porque pasó por varias sumas y restas.
+### 
 Y la ultima parte es de operadores de asignacion, donde se presentan los casos: 
    - x = y: que asigna el valor de y a x.
    - x += z: esto equivale a x = x + z.
